@@ -11,4 +11,3 @@ class CreateIncidentes < ActiveRecord::Migration
     end
   end
 end
-
