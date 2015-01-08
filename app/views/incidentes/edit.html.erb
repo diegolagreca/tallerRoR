@@ -1,0 +1,27 @@
+<div class="jumbotron center">
+    <h1>Editar Incidente</h1>
+    <%= form_for @incidente do |p| %>    
+        <p>
+            <%= p.label "Asunto" %>
+            <%= p.text_field :asunto %>    
+        </p>
+        <p>
+            <%= p.label "Descripción" %>   
+            <%= p.text_field :descripcion %>    
+        </p>
+        <p>
+            <%= p.label "Responsable" %>   
+            <%= p.text_field :responsable %>    
+        </p>
+        <p>
+            <%= p.label "Tipo" %>   
+            <%= p.select :tipo, options_for_select([["Problema", "Problema"], ["Soporte", "Soporte"], ["Bug", "Bug"], ["Error", "Error"]]) %>
+        </p>
+        <p>
+            <%= p.label "Prioridad" %>   
+            <%= p.text_field :prioridad %>    
+        </p>
+        <%= p.submit "Actualizar" %>
+    <% end %>
+
+</div>
