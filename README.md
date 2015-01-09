@@ -1,10 +1,10 @@
 Dashboard de incidentes.
 
-En el dashboard se podrá:
-Visualizar incidentes
-Desplegar una gráfica discriminando por tipo.
-ordenarlos por cualquier campo.
-Filtar por cualquier campo
+En el dashboard se podrá:</br>
+Visualizar incidentes. </br>
+Desplegar una gráfica discriminando por tipo.</br>
+Ordenarlos por cualquier campo.</br>
+Filtar por cualquier campo.
 
 
 ## Estado actual
