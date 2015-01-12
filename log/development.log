@@ -34489,3 +34489,186 @@ Processing by IncidentesController#sobre as HTML
   Rendered incidentes/sobre.html.erb within layouts/application (0.1ms)
   Rendered incidentes/_header.html.erb (0.3ms)
 Completed 200 OK in 316ms (Views: 314.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/incidentes/sobre" for 167.61.59.112 at 2015-01-12 06:53:39 +0000
+Processing by IncidentesController#sobre as HTML
+  Rendered incidentes/sobre.html.erb within layouts/application (0.4ms)
+  Rendered incidentes/_header.html.erb (0.5ms)
+Completed 200 OK in 326ms (Views: 325.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chartkick-571801caa9aee184aa282e837e2a40fc.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/affix-d40f971ee2f767faaf6d6af09b6891b5.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/alert-f76ec816bdcc68a2282059928ef1e52d.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/button-7404970dda5275bf4aa732d8ef1db223.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/carousel-c2724c63c7e679aa20278f2f022560cb.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/collapse-4e4d6ff4fc17afac1d72bdb87dcf9e03.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/incidentes-069e88c06b889877799890854d7f4c40.css?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/scaffolds-9dece7849ea692c2d351c48df871b560.css?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstraply-f216ab389cbb22cce21df47c7cfcc896.css?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/application-01973214b801ded288830c3e57652f12.css?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/dropdown-58cd9071a88158a9a95dda2320da8a92.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/transition-79362283457bd064d3b7ff06acb0f011.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/modal-98b3faca355a223ded5349bc93bdd4a7.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip-ad8aa40c8d62097d02080d81c3d49762.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy-f9ba5cb4717a71f39303d90f29813c97.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap/popover-1fad9cb69620161b2a0c5c6ea67ae644.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/bootstrap-sprockets-81d188b7e8ff849b2ba0fb3c92f98b15.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/jquery-ed9ba866a20621d5c2a320a48d9ce6db.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/jquery_ujs-ba9adbec0d48fdd746844f89475879c6.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:40 +0000
+
+
+Started GET "/assets/underscore-a4d0f72570c7f9a173ec59c715eef04b.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone-9a35712d512156fd92e8f56dc85295f6.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone_rails_sync-7d159b897375f34fe910fbced26f864d.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone_datalink-67dd1bf780d2cc4164ddcff6ad7eaee6.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/dashboard-d4da63def3a48da548506b63af5724ef.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/templates/incidentes/incidente-367f66efab66665df37d98018689c24f.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/templates/incidentes/edit-8ebe8ea4d3122c5d4956f9269f7b83d5.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/templates/incidentes/index-0027ac74f68d057e9e6359d42d9a2d34.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/templates/incidentes/new-346f47c2791b2fe87a0e92454b77b87c.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/templates/incidentes/show-624f6fafa019d6b6119c73eccd3f37ba.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/models/incidente-b3738a5fb21aefe17791418e8faa0591.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/views/incidentes/incidente_view-07bdc054ee8648b64b2a97e6b535e48b.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/views/incidentes/index_view-02b8090202324574c3c0d050efb9decb.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/views/incidentes/edit_view-b95eb4e4ff3bde7a8e613aa2dcaabf71.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/views/incidentes/new_view-ce88829573a6c72f3244e477da9f0c77.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/views/incidentes/show_view-df35b5d527010bf26681661e73ed3dda.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/incidentes-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/application-b76eb20746aaeebc8618c0f6a3290504.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/backbone/routers/incidentes_router-f64c9ba917da23624c94d90a35a855da.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/assets/bootstrap/tab-7d45589786306b417d1664184ca8fbf8.js?body=1" for 167.61.59.112 at 2015-01-12 06:53:41 +0000
+
+
+Started GET "/" for 167.61.59.112 at 2015-01-12 06:53:42 +0000
+Processing by IncidentesController#index as HTML
+  Rendered incidentes/_condition_fields.html.erb (17.3ms)
+  [1m[36mIncidente Load (0.3ms)[0m  [1mSELECT DISTINCT "incidentes".* FROM "incidentes"[0m
+  Rendered incidentes/index.html.erb within layouts/application (25.0ms)
+  Rendered incidentes/_header.html.erb (0.4ms)
+Completed 200 OK in 351ms (Views: 349.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-195cb410b49d75c104a5bc6ad385ac77.woff" for 167.61.59.112 at 2015-01-12 06:53:43 +0000
+
+
+Started GET "/?q%5Bs%5D=prioridad+asc" for 167.61.59.112 at 2015-01-12 06:53:46 +0000
+Processing by IncidentesController#index as HTML
+  Parameters: {"q"=>{"s"=>"prioridad asc"}}
+  Rendered incidentes/_condition_fields.html.erb (8.7ms)
+  [1m[35mIncidente Load (0.4ms)[0m  SELECT DISTINCT "incidentes".* FROM "incidentes"  ORDER BY "incidentes"."prioridad" ASC
+  Rendered incidentes/index.html.erb within layouts/application (19.0ms)
+  Rendered incidentes/_header.html.erb (0.4ms)
+Completed 200 OK in 601ms (Views: 598.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?q%5Bs%5D=prioridad+desc" for 167.61.59.112 at 2015-01-12 06:53:49 +0000
+Processing by IncidentesController#index as HTML
+  Parameters: {"q"=>{"s"=>"prioridad desc"}}
+  Rendered incidentes/_condition_fields.html.erb (8.6ms)
+  [1m[36mIncidente Load (0.6ms)[0m  [1mSELECT DISTINCT "incidentes".* FROM "incidentes"  ORDER BY "incidentes"."prioridad" DESC[0m
+  Rendered incidentes/index.html.erb within layouts/application (20.1ms)
+  Rendered incidentes/_header.html.erb (0.4ms)
+Completed 200 OK in 561ms (Views: 558.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/incidentes/grafica" for 167.61.59.112 at 2015-01-12 06:53:55 +0000
+Processing by IncidentesController#grafica as HTML
+  [1m[35m (0.4ms)[0m  SELECT DISTINCT COUNT(DISTINCT "incidentes"."id") AS count_id, tipo AS tipo FROM "incidentes" GROUP BY tipo
+  Rendered incidentes/grafica.html.erb within layouts/application (1.5ms)
+  Rendered incidentes/_header.html.erb (0.5ms)
+Completed 200 OK in 337ms (Views: 334.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/incidentes/sobre" for 167.61.59.112 at 2015-01-12 06:54:02 +0000
+Processing by IncidentesController#sobre as HTML
+  Rendered incidentes/sobre.html.erb within layouts/application (0.1ms)
+  Rendered incidentes/_header.html.erb (0.6ms)
+Completed 200 OK in 440ms (Views: 438.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 167.61.59.112 at 2015-01-12 06:54:12 +0000
+Processing by IncidentesController#index as HTML
+  Rendered incidentes/_condition_fields.html.erb (7.4ms)
+  [1m[36mIncidente Load (0.5ms)[0m  [1mSELECT DISTINCT "incidentes".* FROM "incidentes"[0m
+  Rendered incidentes/index.html.erb within layouts/application (17.4ms)
+  Rendered incidentes/_header.html.erb (0.3ms)
+Completed 200 OK in 482ms (Views: 479.9ms | ActiveRecord: 0.5ms)
