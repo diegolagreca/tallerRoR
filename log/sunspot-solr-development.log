@@ -1,0 +1,372 @@
+ene 10, 2015 4:53:45 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFORMACIÓN: SolrDispatchFilter.init()
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFORMACIÓN: JNDI not configured for solr (NoInitialContextEx)
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFORMACIÓN: using system property solr.solr.home: /Users/diegovazquezlagreca/Documents/RoR/work2/solr
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFORMACIÓN: looking for solr.xml: /Users/diegovazquezlagreca/Documents/RoR/work2/solr/solr.xml
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer <init>
+INFORMACIÓN: New CoreContainer 351028485
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer load
+INFORMACIÓN: Loading CoreContainer using Solr Home: '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/'
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFORMACIÓN: new SolrResourceLoader for directory: '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/'
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting socketTimeout to: 0
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting urlScheme to: http://
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting connTimeout to: 0
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting maxConnectionsPerHost to: 20
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting corePoolSize to: 0
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting maximumPoolSize to: 2147483647
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting maxThreadIdleTime to: 5
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting sizeOfQueue to: -1
+ene 10, 2015 4:53:45 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFORMACIÓN: Setting fairnessPolicy to: false
+ene 10, 2015 4:53:45 PM org.apache.solr.client.solrj.impl.HttpClientUtil createClient
+INFORMACIÓN: Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer load
+INFORMACIÓN: Registering Log Listener
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer create
+INFORMACIÓN: Creating SolrCore 'default' using instanceDir: /Users/diegovazquezlagreca/Documents/RoR/work2/solr/.
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFORMACIÓN: new SolrResourceLoader for directory: '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./'
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer create
+INFORMACIÓN: Creating SolrCore 'development' using instanceDir: /Users/diegovazquezlagreca/Documents/RoR/work2/solr/.
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFORMACIÓN: new SolrResourceLoader for directory: '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./'
+ene 10, 2015 4:53:45 PM org.apache.solr.core.CoreContainer create
+INFORMACIÓN: Creating SolrCore 'test' using instanceDir: /Users/diegovazquezlagreca/Documents/RoR/work2/solr/.
+ene 10, 2015 4:53:45 PM org.apache.solr.core.SolrResourceLoader <init>
+INFORMACIÓN: new SolrResourceLoader for directory: '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./'
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Using Lucene MatchVersion: LUCENE_41
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Using Lucene MatchVersion: LUCENE_41
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Using Lucene MatchVersion: LUCENE_41
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Loaded SolrConfig: solrconfig.xml
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Loaded SolrConfig: solrconfig.xml
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrConfig <init>
+INFORMACIÓN: Loaded SolrConfig: solrconfig.xml
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Reading Solr Schema
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Reading Solr Schema
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Reading Solr Schema
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Schema name=sunspot
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Schema name=sunspot
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: Schema name=sunspot
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: default search field in schema is text
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: query parser default operator is AND
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: default search field in schema is text
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: unique key field: id
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: query parser default operator is AND
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: unique key field: id
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: default search field in schema is text
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: query parser default operator is AND
+ene 10, 2015 4:53:46 PM org.apache.solr.schema.IndexSchema readSchema
+INFORMACIÓN: unique key field: id
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: [default] Opening new SolrCore at /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./, dataDir=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./default/data/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: [test] Opening new SolrCore at /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./, dataDir=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./test/data/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: JMX monitoring not detected for core: test
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: [development] Opening new SolrCore at /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./, dataDir=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./development/data/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: JMX monitoring not detected for core: development
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore <init>
+INFORMACIÓN: JMX monitoring not detected for core: default
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFORMACIÓN: solr.NRTCachingDirectoryFactory
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFORMACIÓN: solr.NRTCachingDirectoryFactory
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFORMACIÓN: solr.NRTCachingDirectoryFactory
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./development/data forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./default/data forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFORMACIÓN: New index directory detected: old=null new=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./default/data/index/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initIndex
+ADVERTENCIA: [default] Solr index directory '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./default/data/index' doesn't exist. Creating new index...
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./test/data forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFORMACIÓN: New index directory detected: old=null new=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./test/data/index/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initIndex
+ADVERTENCIA: [test] Solr index directory '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./test/data/index' doesn't exist. Creating new index...
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFORMACIÓN: New index directory detected: old=null new=/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./development/data/index/
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore initIndex
+ADVERTENCIA: [development] Solr index directory '/Users/diegovazquezlagreca/Documents/RoR/work2/solr/./development/data/index' doesn't exist. Creating new index...
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./default/data/index forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./development/data/index forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CachingDirectoryFactory get
+INFORMACIÓN: return new directory for /Users/diegovazquezlagreca/Documents/RoR/work2/solr/./test/data/index forceNew: false
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFORMACIÓN: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@15ecb6ff; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFORMACIÓN: newest commit = 1[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFORMACIÓN: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1452b3ad; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFORMACIÓN: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/test/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@25bdc927; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFORMACIÓN: newest commit = 1[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFORMACIÓN: newest commit = 1[segments_1]
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /select: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /query: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /select: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /query: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /select: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /query: solr.SearchHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /get: solr.RealTimeGetHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /get: solr.RealTimeGetHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /get: solr.RealTimeGetHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update: solr.UpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update: solr.UpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update: solr.UpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/json: solr.JsonUpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/json: solr.JsonUpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/json: solr.JsonUpdateRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/csv: solr.CSVRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/csv: solr.CSVRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/csv: solr.CSVRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/extract: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/extract: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /update/extract: solr.extraction.ExtractingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/field: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/document: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/ping: solr.PingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/field: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/document: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/field: solr.FieldAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /analysis/document: solr.DocumentAnalysisRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/ping: solr.PingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/ping: solr.PingRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /debug/dump: solr.DumpRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /debug/dump: solr.DumpRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /debug/dump: solr.DumpRequestHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /replication: solr.ReplicationHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /replication: solr.ReplicationHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /replication: solr.ReplicationHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /mlt: solr.MoreLikeThisHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /mlt: solr.MoreLikeThisHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /mlt: solr.MoreLikeThisHandler
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/: solr.admin.AdminHandlers
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/: solr.admin.AdminHandlers
+ene 10, 2015 4:53:46 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFORMACIÓN: created /admin/: solr.admin.AdminHandlers
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.loader.XMLLoader init
+INFORMACIÓN: xsltCacheLifetimeSeconds=60
+ene 10, 2015 4:53:46 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFORMACIÓN: Opening Searcher@4b95eaf1 main
+ene 10, 2015 4:53:46 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFORMACIÓN: Opening Searcher@657a211e main
+ene 10, 2015 4:53:46 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFORMACIÓN: Opening Searcher@3f7022b0 main
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Hard AutoCommit: if uncommited for 15000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Soft AutoCommit: if uncommited for 5000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Hard AutoCommit: if uncommited for 15000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Hard AutoCommit: if uncommited for 15000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: Initializing spell checkers
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Soft AutoCommit: if uncommited for 5000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: Initializing spell checkers
+ene 10, 2015 4:53:46 PM org.apache.solr.update.CommitTracker <init>
+INFORMACIÓN: Soft AutoCommit: if uncommited for 5000ms; 
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: Initializing spell checkers
+ene 10, 2015 4:53:46 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFORMACIÓN: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+ene 10, 2015 4:53:46 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFORMACIÓN: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+ene 10, 2015 4:53:46 PM org.apache.solr.spelling.DirectSolrSpellChecker init
+INFORMACIÓN: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: No queryConverter defined, using default converter
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: No queryConverter defined, using default converter
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFORMACIÓN: No queryConverter defined, using default converter
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.ReplicationHandler inform
+INFORMACIÓN: Commits will be reserved for  10000
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.ReplicationHandler inform
+INFORMACIÓN: Commits will be reserved for  10000
+ene 10, 2015 4:53:46 PM org.apache.solr.handler.ReplicationHandler inform
+INFORMACIÓN: Commits will be reserved for  10000
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore registerSearcher
+INFORMACIÓN: [default] Registered new searcher Searcher@657a211e main{StandardDirectoryReader(segments_1:1)}
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CoreContainer registerCore
+INFORMACIÓN: registering core: development
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore registerSearcher
+INFORMACIÓN: [test] Registered new searcher Searcher@4b95eaf1 main{StandardDirectoryReader(segments_1:1)}
+ene 10, 2015 4:53:46 PM org.apache.solr.core.SolrCore registerSearcher
+INFORMACIÓN: [development] Registered new searcher Searcher@3f7022b0 main{StandardDirectoryReader(segments_1:1)}
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CoreContainer registerCore
+INFORMACIÓN: registering core: test
+ene 10, 2015 4:53:46 PM org.apache.solr.core.CoreContainer registerCore
+INFORMACIÓN: registering core: default
+ene 10, 2015 4:53:46 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFORMACIÓN: user.dir=/Users/diegovazquezlagreca/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/sunspot_solr-2.1.1/solr
+ene 10, 2015 4:53:46 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFORMACIÓN: SolrDispatchFilter.init() done
+ene 10, 2015 8:18:49 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFORMACIÓN: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@15ecb6ff; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+ene 10, 2015 8:18:49 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFORMACIÓN: newest commit = 1[segments_1]
+ene 10, 2015 8:18:49 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFORMACIÓN: Opening Searcher@4a35b5a realtime
+ene 10, 2015 8:18:49 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFORMACIÓN: [default] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Incidente (-1489951343519989760)} 0 185
+ene 10, 2015 8:18:49 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFORMACIÓN: [default] webapp=/solr path=/update params={wt=ruby} {add=[Incidente 1 (1489951343720267776), Incidente 2 (1489951343793668096), Incidente 3 (1489951343794716672), Incidente 4 (1489951343797862400)]} 0 79
+ene 10, 2015 8:18:49 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFORMACIÓN: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+ene 10, 2015 8:18:49 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFORMACIÓN: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@15ecb6ff; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/diegovazquezlagreca/Documents/RoR/work2/solr/default/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@15ecb6ff; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, segments_2, _0.nvd, _0.fdx, _0.fdt, _0_Lucene41_0.pos, _0.nvm, _0.fnm]
+ene 10, 2015 8:18:49 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFORMACIÓN: newest commit = 2[_0_Lucene41_0.tip, _0_Lucene41_0.doc, _0.si, _0_Lucene41_0.tim, segments_2, _0.nvd, _0.fdx, _0.fdt, _0_Lucene41_0.pos, _0.nvm, _0.fnm]
+ene 10, 2015 8:18:49 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFORMACIÓN: Opening Searcher@6e25ab99 main
+ene 10, 2015 8:18:49 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFORMACIÓN: end_commit_flush
+ene 10, 2015 8:18:49 PM org.apache.solr.core.SolrCore registerSearcher
+INFORMACIÓN: [default] Registered new searcher Searcher@6e25ab99 main{StandardDirectoryReader(segments_2:3:nrt _0(4.2):C4)}
+ene 10, 2015 8:18:49 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFORMACIÓN: [default] webapp=/solr path=/update params={wt=ruby} {commit=} 0 124
+ene 10, 2015 8:26:06 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=38 
+ene 10, 2015 8:26:58 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=9 
+ene 10, 2015 8:27:06 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=1 
+ene 10, 2015 8:28:12 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=0 
+ene 10, 2015 8:30:38 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=0 
+ene 10, 2015 8:30:40 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=0 
+ene 10, 2015 8:48:23 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=7 
+ene 10, 2015 9:02:38 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=1 
+ene 10, 2015 9:02:42 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=1 
+ene 10, 2015 9:02:50 PM org.apache.solr.core.SolrCore execute
+INFORMACIÓN: [default] webapp=/solr path=/select params={q=*:*&start=0&fq=type:Incidente&rows=30&wt=ruby} hits=4 status=0 QTime=1 

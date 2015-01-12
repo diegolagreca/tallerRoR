@@ -5,16 +5,34 @@ class IncidentesController < ApplicationController
   # GET /incidentes
   # GET /incidentes.json
   def index
-    # Lógica de busqueda
+
+    # Título de la página
+    @titulo = "Inicio" 
+    
+    # Lógica de busqueda  
     @q = Incidente.ransack(params[:q])
     @incidentes = @q.result(distinct: true)  
     @q.build_condition 
 
   end
 
+  def grafica
+
+    # Título de la página
+    @titulo = "Gráfica de incidentes"   
+    
+    # Recursos de busqueda para cargar datos en gráfica
+    @q = Incidente.ransack(params[:q])
+    @incidentes = @q.result(distinct: true)  
+    @q.build_condition 
+  end
+
   # GET /incidentes/1
   # GET /incidentes/1.json
   def show
+
+    # Título de la página
+    @titulo = "Contenido del incidente"   
 
     @incidentes = Incidente.all
 
@@ -22,11 +40,18 @@ class IncidentesController < ApplicationController
 
   # GET /incidentes/new
   def new
+
+    # Título de la página
+    @titulo = "Nuevo incidente"   
+
     @incidente = Incidente.new
   end
 
   # GET /incidentes/1/edit
   def edit
+
+    # Título de la página
+    @titulo = "Actualizar incidente"   
   end
 
   # POST /incidentes

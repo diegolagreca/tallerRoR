@@ -1,9 +1,11 @@
-    <div class="field">
-      <%= f.attribute_fields do |a| %>
-        <%= a.attribute_select %>
-      <% end %>
-      <%= f.predicate_select %>
-      <%= f.value_fields do |v| %>
-        <%= v.text_field :value %>
-      <% end %>
-  </div>
+
+<!-- Construcción de condiciones de filtro para la busqueda de incidentes -->
+<div class="field">
+  <%= f.attribute_fields do |a| %>
+    <%= a.attribute_select %>
+  <% end %>
+  <%= f.predicate_select %>
+  <%= f.value_fields do |v| %>
+    <%= v.text_field :value %>
+  <% end %>
+</div>

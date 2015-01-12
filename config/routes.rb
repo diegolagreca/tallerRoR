@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   root 'incidentes#index'
+  get 'incidentes/sobre'
+  get 'incidentes/grafica'
+
   resources :incidentes
 
   # The priority is based upon order of creation: first created -> highest priority.
