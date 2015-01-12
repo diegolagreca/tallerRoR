@@ -1,18 +1,16 @@
 <p id="notice"><%= notice %></p>
-    <h2>Lista de incidentes</h2>
+  <h2>Lista de incidentes</h2>
+  <div class="jumbotron center">
+    <div>
+      <h3><span class="glyphicon glyphicon-filter" aria-hidden="true"></span> Filtrar incidentes</h3>
 
-   <div class="jumbotron center">
-
-  <div>
-    <h3><span class="glyphicon glyphicon-filter" aria-hidden="true"></span> Filtrar incidentes</h3>
-
-<!-- Filtro de busqueda -->
-  <%= search_form_for @q do |f| %>
-    <%= f.condition_fields do |c| %>
-      <%= render "condition_fields", f: c %>
-    <% end %>
-    <%= f.submit "Filtrar"%>
-  <% end %>
+        <!-- Filtro de busqueda -->
+          <%= search_form_for @q do |f| %>
+            <%= f.condition_fields do |c| %>
+              <%= render "condition_fields", f: c %>
+            <% end %>
+            <%= f.submit "Filtrar"%>
+          <% end %>
   
   <!-- Generación de tabla de incidentes -->
   </div>
