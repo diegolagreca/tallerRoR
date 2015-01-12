@@ -1,0 +1,40 @@
+<h1>New incidente</h1>
+
+<form id="new-incidente" name="incidente">
+  <div class="field">
+    <label for="asunto"> asunto:</label>
+    <input type="text" name="asunto" id="asunto" value="<%= asunto %>" required="required">
+  </div>
+
+  <div class="field">
+    <label for="descripcion"> descripcion:</label>
+    <input type="text" name="descripcion" id="descripcion" value="<%= descripcion %>" required="required">
+  </div>
+
+  <div class="field">
+    <label for="responsable"> responsable:</label>
+    <input type="text" name="responsable" id="responsable" value="<%= responsable %>" required="required">
+  </div>
+
+  <div>
+    <label for="tipo"> Tipo</label>
+    <select class="selectpicker" name="tipo" id="tipo">
+      <option>Problema</option>
+      <option>Soporte</option>
+      <option>Bug</option>
+      <option>Error</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="prioridad"> prioridad:</label>
+    <input type="text" name="prioridad" id="prioridad" value="<%= prioridad %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Crear Incidente" />
+  </div>
+
+</form>
+
+<a href="#/index">Atrás</a>

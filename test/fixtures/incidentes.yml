@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  asunto: MyString
+  descripcion: MyString
+  responsable: MyString
+  tipo: MyString
+  prioridad: 1
+
+two:
+  asunto: MyString
+  descripcion: MyString
+  responsable: MyString
+  tipo: MyString
+  prioridad: 1

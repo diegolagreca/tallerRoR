@@ -1,0 +1,32 @@
+<div class="jumbotron center">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Asunto:</strong>
+  <%= @incidente.asunto %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @incidente.descripcion %>
+</p>
+
+<p>
+  <strong>Responsable:</strong>
+  <%= @incidente.responsable %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @incidente.tipo %>
+</p>
+
+<p>
+  <strong>Prioridad:</strong>
+  <%= @incidente.prioridad %>
+</p>
+
+<%= link_to 'Editar', edit_incidente_path(@incidente) %> |
+<%= link_to 'Atrás', incidentes_path %>
+</div> 
+

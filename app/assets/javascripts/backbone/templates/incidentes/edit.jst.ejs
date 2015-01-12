@@ -1,0 +1,40 @@
+<h1>Edit incidente</h1>
+
+<form id="edit-incidente" name="incidente">
+  <div class="field">
+    <label for="asunto"> asunto:</label>
+    <input type="text" name="asunto" id="asunto" value="<%= asunto %>" >
+  </div>
+
+  <div class="field">
+    <label for="descripcion"> descripcion:</label>
+    <input type="text" name="descripcion" id="descripcion" value="<%= descripcion %>" >
+  </div>
+
+  <div class="field">
+    <label for="responsable"> responsable:</label>
+    <input type="text" name="responsable" id="responsable" value="<%= responsable %>" >
+  </div>
+
+  <div>
+    <label for="tipo"> Tipo</label>
+    <select class="selectpicker" name="tipo" id="tipo">
+      <option>Problema</option>
+      <option>Soporte</option>
+      <option>Bug</option>
+      <option>Error</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="prioridad"> prioridad:</label>
+    <input type="text" name="prioridad" id="prioridad" value="<%= prioridad %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Actualizar Incidente" />
+  </div>
+
+</form>
+
+<a href="#/index">Atrás</a>

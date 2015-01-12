@@ -1,0 +1,37 @@
+<%= form_for(@incidente) do |f| %>
+  <% if @incidente.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@incidente.errors.count, "error") %> prohibited this incidente from being saved:</h2>
+
+      <ul>
+      <% @incidente.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :asunto %><br>
+    <%= f.text_field :asunto %>
+  </div>
+  <div class="field">
+    <%= f.label :descripcion %><br>
+    <%= f.text_field :descripcion %>
+  </div>
+  <div class="field">
+    <%= f.label :responsable %><br>
+    <%= f.text_field :responsable %>
+  </div>
+  <div class="field">
+    <%= f.label :tipo %><br>
+    <%= f.select :tipo, options_for_select([["Problema", "Problema"], ["Soporte", "Soporte"],["Bug", "Bug"],["Error", "Error"]]) %>
+  </div>
+  <div class="field">
+    <%= f.label :prioridad %><br>
+    <%= f.select :prioridad, options_for_select([["1", "1"], ["2", "2"],["3", "3"]]) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
