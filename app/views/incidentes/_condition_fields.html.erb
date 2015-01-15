@@ -4,8 +4,8 @@
   <%= f.attribute_fields do |a| %>
     <%= a.attribute_select %>
   <% end %>
-  <%= f.predicate_select %>
+  <%= f.predicate_select only: [:cont, :eq, :gteq, :lteq] %>
   <%= f.value_fields do |v| %>
-    <%= v.text_field :value %>
+    <%= v.text_field :value, placeholder: "Buscar..."  %>
   <% end %>
 </div>

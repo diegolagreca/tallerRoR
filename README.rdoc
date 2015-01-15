@@ -1,0 +1,4 @@
+Dashboard de incidentes.
+
+En su actual versión, el dashboard permite dar de alta incidentes y editarlos. 
+Se puede cambiar el órden de cada columna haciendo click en título de la misma.

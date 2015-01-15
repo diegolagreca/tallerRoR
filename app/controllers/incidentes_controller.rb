@@ -11,8 +11,11 @@ class IncidentesController < ApplicationController
     
     # Lógica de busqueda  
     @q = Incidente.ransack(params[:q])
-    @incidentes = @q.result(distinct: true)  
+
+    @incidentes = @q.result(distinct: true).page params[:page]   
     @q.build_condition 
+
+    # Paginación  
 
   end
 
@@ -52,6 +55,13 @@ class IncidentesController < ApplicationController
 
     # Título de la página
     @titulo = "Actualizar incidente"   
+  end
+
+  def sobre
+
+    # Título de la página
+    @titulo = "Sobre esta aplicación"   
+
   end
 
   # POST /incidentes

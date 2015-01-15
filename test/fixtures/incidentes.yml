@@ -1,15 +1,24 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  asunto: MyString
-  descripcion: MyString
-  responsable: MyString
-  tipo: MyString
-  prioridad: 1
+  asunto: asunto
+  descripcion: descripcion
+  responsable: responsable
+  tipo: Problema
+  prioridad: 2
 
-two:
-  asunto: MyString
-  descripcion: MyString
-  responsable: MyString
-  tipo: MyString
-  prioridad: 1
+# two:
+#   asunto: 6542
+#   descripcion: 45
+#   responsable: 354
+#   tipo: 645e
+#   prioridad: 876
+
+# <% 50.times do |n| %>
+# incidente_<%= n %>:
+#   asunto: <%= "asunto#{n}" %>
+#   descripcion: <%= "descripcion#{n}" %>
+#   responsable: <%= "responsable#{n}" %>
+#   tipo: <%= "tipo#{n}" %>
+#   prioridad: <%= "#{n}" %>
+# <% end %>

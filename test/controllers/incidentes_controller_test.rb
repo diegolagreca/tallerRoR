@@ -46,4 +46,5 @@ class IncidentesControllerTest < ActionController::TestCase
 
     assert_redirected_to incidentes_path
   end
+
 end

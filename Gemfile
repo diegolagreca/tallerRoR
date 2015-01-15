@@ -29,6 +29,10 @@ gem 'bootstrap-sass', '~> 3.3.1.0'
 
 gem 'ransack'
 
+# Librería para "paginar" el resultado de la tabla de incidentes
+
+gem 'kaminari'
+
 # Motor de gráficas
 
 gem 'chartkick', '~> 1.2.4'
@@ -39,15 +43,18 @@ gem 'active_median', '~> 0.1.0'
 
 gem 'rails-backbone'
 
+
+
 # Motor de base de datos utilizado en ambientes de testing y desarrollo
 
 group :development, :test  do
     gem 'sqlite3',  '1.3.9'
+    gem 'shoulda'
 end
 
 # Motor de base de datos utilizado en ambiente de producción
 
-# group :production do
-  #  gem 'pg',   '0.17.1'
-  # gem 'rails_12factor',   '0.0.2'
-# end
+group :production do
+    gem 'pg',   '0.17.1'
+    gem 'rails_12factor',   '0.0.2'
+end
